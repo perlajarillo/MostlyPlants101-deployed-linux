@@ -26,6 +26,11 @@ To be sure that the server us up-to-date, all packages has been updated using th
 `sudo apt-get upgrade`
 `sudo do-release-upgrade`
 
+To update packages kept back:
+`sudo apt-get update && sudo apt-get dist-upgrade`
+
+Then perform `sudo reboot` to apply changes.
+
 ### Packages included
 This is the list of software installed in the server using the command sudo `apt-get install` :
 
@@ -165,3 +170,9 @@ The Linux instance was created using AWS [Amazon Lightsail](https://lightsail.aw
 [Creating a DNS zone to manage your domain’s DNS records in Amazon Lightsail \| Lightsail Documentation](https://lightsail.aws.amazon.com/ls/docs/en/articles/lightsail-how-to-create-dns-entry)
 
 [Understanding public network ports and firewall settings in Amazon Lightsail \| Lightsail Documentation](https://lightsail.aws.amazon.com/ls/docs/en/articles/understanding-firewall-and-port-mappings-in-amazon-lightsail)
+
+[Ubuntu Server message says packages can be updated, but apt-get does not update any - Server Fault](https://serverfault.com/questions/265410/ubuntu-server-message-says-packages-can-be-updated-but-apt-get-does-not-update)
+
+[Getting Started with UFW (Uncomplicated Firewall) on Ubuntu 15.04](https://www.howtoforge.com/tutorial/ufw-uncomplicated-firewall-on-ubuntu-15-04/)
+
+
