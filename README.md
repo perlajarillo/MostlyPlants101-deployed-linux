@@ -1,7 +1,7 @@
-# bowls101-deployed-linux
+# Mostly Plants 101-deployed-linux
 Author: Perla Jarillo
 
-Describe the Linux Server Configuration to deploy bowls101
+Describe the Linux Server Configuration to deploy Mostly Plants 101
 
 
 ## IP address and ports.
